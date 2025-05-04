@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['corrosion', 'crack', 'delamination', 'dirty- mold', 'paint defect', 'rust']
+
+roboflow:
+  workspace: ai-noh9u
+  project: defects-in-facade-building-8qofe
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ai-noh9u/defects-in-facade-building-8qofe/dataset/1

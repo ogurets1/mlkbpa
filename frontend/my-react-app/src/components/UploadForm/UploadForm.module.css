@@ -1,0 +1,52 @@
+.form {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .input {
+    display: block;
+    width: 100%;
+    padding: 0.8rem;
+    margin: 1rem 0;
+    border: 2px dashed #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .input:hover {
+    background: #e9f5ff;
+    border-color: #0056b3;
+  }
+  
+  .button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-size: 1rem;
+  }
+  
+  .button:disabled {
+    background: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  .button:hover:not(:disabled) {
+    background: #0056b3;
+  }
+  
+  /* Мобильная адаптация */
+  @media (max-width: 768px) {
+    .form {
+      margin: 1rem;
+      padding: 1rem;
+    }
+  }

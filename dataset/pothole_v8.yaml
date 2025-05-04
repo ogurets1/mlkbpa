@@ -1,0 +1,7 @@
+path: /home/alex/Документы/vs_code/ml/vr1/dataset  # абсолютный путь к датасету
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 6
+names: ['corrosion', 'crack', 'delamination', 'dirty- mold', 'paint defect', 'rust']

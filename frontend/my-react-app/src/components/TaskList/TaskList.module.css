@@ -1,0 +1,17 @@
+.results {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 10px;
+  }
+  
+  /* Для мобильных устройств */
+  @media (max-width: 480px) {
+    .results {
+      grid-template-columns: 1fr;
+      padding: 1rem;
+      gap: 1rem;
+    }
+  }
